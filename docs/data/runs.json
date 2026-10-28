@@ -1,0 +1,20 @@
+{
+  "collection": {
+    "name": "Yale University Art Gallery",
+    "abbr": "YUAG"
+  },
+  "runs": [
+    {
+      "id": "20261028-test-run-20",
+      "label": "Test run — 20 objects",
+      "date": "2026-10-28",
+      "model": "gemini-3.1-flash-lite",
+      "count": 20,
+      "described": 20,
+      "cost_usd": 0.014,
+      "tokens": 35045,
+      "file": "data/runs/20261028-test-run-20.json",
+      "description": "A first test of the chai workflow on the first 20 objects of the list: the manifest's Classification and Medium tell the model what kind of object it is, and the alt-text opens with it."
+    }
+  ]
+}
