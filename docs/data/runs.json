@@ -5,6 +5,18 @@
   },
   "runs": [
     {
+      "id": "20261028-full-run-6432",
+      "label": "Full run — 6,432 objects",
+      "date": "2026-10-28",
+      "model": "gemini-3.1-flash-lite",
+      "count": 6432,
+      "described": 6432,
+      "cost_usd": 4.7487,
+      "tokens": 11383309,
+      "file": "data/runs/20261028-full-run-6432.json",
+      "description": "Every object in AltText_YUAG.xlsx, run through the chai workflow in workflow/: the manifest's Classification and Medium tell the model what kind of object it is, the first image is fetched at up to 1600×1600, and each row records the model call's cost. 6,432 calls, 11.4 million tokens, $4.75, 87 minutes."
+    },
+    {
       "id": "20261028-test-run-20",
       "label": "Test run — 20 objects",
       "date": "2026-10-28",
